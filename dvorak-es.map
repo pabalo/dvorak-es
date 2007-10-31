@@ -1,6 +1,8 @@
 # Spanish Dvorak Keyboard
 #
+# Authors:
 # Diego Fernández Capitán
+# Ismael Luceno
 
 keymaps 0-2,4,5,6,8-10,12,14
 include "linux-with-alt-and-altgr"
@@ -64,8 +66,10 @@ keycode  14 = Delete
 keycode  15 = Tab
 	alt     keycode  15 = Meta_Tab
 keycode  16 = period       colon
+	altgr   keycode  16 = less
 	alt     keycode  52 = Meta_period
 keycode  17 = comma  semicolon
+	altgr   keycode  17 = greater
 	alt     keycode  51 = Meta_comma
 keycode  18 =  +ntilde +Ntilde
 	alt     keycode  39 = Meta_semicolon
